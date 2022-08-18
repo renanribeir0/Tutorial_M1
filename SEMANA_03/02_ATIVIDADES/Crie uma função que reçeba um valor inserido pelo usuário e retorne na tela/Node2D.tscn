@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Node2D.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 192.0
+margin_right = 832.0
+margin_bottom = 208.0
+color = Color( 0.0784314, 0.94902, 0.215686, 1 )
+
+[node name="resultado" type="Label" parent="ColorRect"]
+margin_left = 64.0
+margin_top = 16.0
+margin_right = 584.0
+margin_bottom = 192.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 448.0
+margin_top = 256.0
+margin_right = 576.0
+margin_bottom = 328.0
+text = "CLIQUE AQUI"
+
+[node name="t1" type="LineEdit" parent="."]
+margin_left = 192.0
+margin_top = 384.0
+margin_right = 320.0
+margin_bottom = 448.0
+
+[node name="Label" type="Label" parent="t1"]
+margin_top = -32.0
+margin_right = 128.0
+text = "Ano atual, ex: 2022"
+align = 1
+
+[node name="t2" type="LineEdit" parent="."]
+margin_left = 704.0
+margin_top = 384.0
+margin_right = 832.0
+margin_bottom = 448.0
+
+[node name="Label" type="Label" parent="t2"]
+margin_top = -40.0
+margin_right = 128.0
+margin_bottom = -9.0
+text = "Ano em que você nasceu, ex: 2004"
+align = 1
+autowrap = true
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
