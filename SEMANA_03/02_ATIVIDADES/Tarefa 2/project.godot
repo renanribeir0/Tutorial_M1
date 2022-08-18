@@ -10,8 +10,8 @@ config_version=4
 
 [application]
 
-config/name="Crie uma lista vazia, preencha com os dados enviados pelo usuário e mostre na tela"
-run/main_scene="res://.import/tarefa2.tscn"
+config/name="Tarefa 2"
+run/main_scene="res://questao2.tscn"
 config/icon="res://icon.png"
 
 [physics]

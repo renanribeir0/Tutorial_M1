@@ -1,0 +1,31 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = 132.0
+margin_top = 37.0
+margin_right = 961.0
+margin_bottom = 391.0
+
+[node name="Label" type="Label" parent="ColorRect"]
+margin_left = 234.0
+margin_top = 64.0
+margin_right = 570.0
+margin_bottom = 279.0
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 135.0
+margin_top = 460.0
+margin_right = 357.0
+margin_bottom = 559.0
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+margin_left = 742.0
+margin_top = 458.0
+margin_right = 961.0
+margin_bottom = 560.0
